@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /color-icon/
+
+RewriteRule ^hex/(.+)$ index.php?hexcol=$1 [NC,L]
